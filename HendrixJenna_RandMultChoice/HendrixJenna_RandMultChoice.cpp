@@ -171,7 +171,7 @@ bool ValidateAnswer(char answer, int questionInt) {
 	std::cin >> again;
 	again = toupper(again);
 	if (again == 'Y') {
-		system("clear");
+		system("cls");
 		return true;
 	}
 	else if (again == 'N') {
